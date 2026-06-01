@@ -1,0 +1,55 @@
+name: KurdishSoraniKeyboard
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+
+targets:
+  KurdishSoraniKeyboard:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    bundleIdPrefix: com.kurdish.sorani.inputmethod
+    productName: KurdishSoraniKeyboard
+    sources:
+      - path: KurdishSoraniKeyboard
+        excludes:
+          - "Info.plist"
+          - "*.entitlements"
+          - "*.keylayout"
+          - "Assets.xcassets"
+          - "PrivacyInfo.xcprivacy"
+      - path: KurdishSoraniKeyboard/KurdishSorani.keylayout
+        buildPhase: resources
+      - path: KurdishSoraniKeyboard/Assets.xcassets
+        buildPhase: resources
+      - path: KurdishSoraniKeyboard/PrivacyInfo.xcprivacy
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kurdish.sorani.inputmethod.KurdishSorani
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: KurdishSoraniKeyboard/Info.plist
+        CODE_SIGN_ENTITLEMENTS: KurdishSoraniKeyboard/KurdishSoraniKeyboard.entitlements
+        CODE_SIGN_STYLE: Automatic
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+
+  KurdishSoraniKeyboardTests:
+    type: bundle.unit-test
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: KurdishSoraniKeyboardTests
+    dependencies:
+      - target: KurdishSoraniKeyboard
+    settings:
+      base:
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        GENERATE_INFOPLIST_FILE: YES

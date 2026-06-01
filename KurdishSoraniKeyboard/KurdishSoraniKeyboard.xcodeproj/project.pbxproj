@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C76CFE6B69B9BA5936CAF41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160B859A6344FFA4E46AF147 /* AppDelegate.swift */; };
+		135A964D4A3E3F3F1BD2159A /* OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBCFDDE6156926DF898FDAF /* OnboardingTests.swift */; };
+		14742E6419E8E55843D51150 /* KurdishKeyMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E715C3CB2173B516716D2 /* KurdishKeyMapTests.swift */; };
+		14BB8E6BB4B8F1AFFF08C54B /* KurdishSorani.keylayout in Resources */ = {isa = PBXBuildFile; fileRef = 1595111C72CC1ECB11A17F92 /* KurdishSorani.keylayout */; };
+		18F192E5ECBB463FF4EC00AE /* OnboardingWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF949C3B0812A68FA8491C2 /* OnboardingWindowController.swift */; };
+		28BA23C55BE237ADBFD6D906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF04424BE5FE9B061923DE /* Assets.xcassets */; };
+		2DC88002E4D0200E8DDFCC9F /* KeyboardViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA56DF4D849A92411F591736 /* KeyboardViewer.swift */; };
+		63C4A4795713EF6189577A27 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EF9820A401B180819663D /* InputController.swift */; };
+		919FD143F284DE99EC783A9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9EB3E988E4C24F5BD5949 /* main.swift */; };
+		B8880E23D876B07D09C7BD60 /* KurdishKeyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D42E82C1212304912C79FEB /* KurdishKeyMap.swift */; };
+		CF0DE3AB65BC1D151BB27258 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 861C90DE06667441C5EC6DB4 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69A3A34AAC45B94399C82D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9F74A4D74D89F1E9921A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC608DBA0F9474605DA46F1B;
+			remoteInfo = KurdishSoraniKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1595111C72CC1ECB11A17F92 /* KurdishSorani.keylayout */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KurdishSorani.keylayout; sourceTree = "<group>"; };
+		160B859A6344FFA4E46AF147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22D9EB3E988E4C24F5BD5949 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2D42E82C1212304912C79FEB /* KurdishKeyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurdishKeyMap.swift; sourceTree = "<group>"; };
+		2F677842CCFACB9244440D50 /* KurdishSoraniKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KurdishSoraniKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEF04424BE5FE9B061923DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF949C3B0812A68FA8491C2 /* OnboardingWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWindowController.swift; sourceTree = "<group>"; };
+		6E9EF9820A401B180819663D /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		6FBCFDDE6156926DF898FDAF /* OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTests.swift; sourceTree = "<group>"; };
+		838E715C3CB2173B516716D2 /* KurdishKeyMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurdishKeyMapTests.swift; sourceTree = "<group>"; };
+		861C90DE06667441C5EC6DB4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BA56DF4D849A92411F591736 /* KeyboardViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewer.swift; sourceTree = "<group>"; };
+		DD85DE9B21607CE2323866E4 /* KurdishSoraniKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KurdishSoraniKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2901A871F4A8CE4F000D595D /* KurdishSoraniKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				838E715C3CB2173B516716D2 /* KurdishKeyMapTests.swift */,
+				6FBCFDDE6156926DF898FDAF /* OnboardingTests.swift */,
+			);
+			path = KurdishSoraniKeyboardTests;
+			sourceTree = "<group>";
+		};
+		4043FEC6FA141C7969D99DBC /* KurdishSoraniKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				160B859A6344FFA4E46AF147 /* AppDelegate.swift */,
+				4CEF04424BE5FE9B061923DE /* Assets.xcassets */,
+				6E9EF9820A401B180819663D /* InputController.swift */,
+				BA56DF4D849A92411F591736 /* KeyboardViewer.swift */,
+				2D42E82C1212304912C79FEB /* KurdishKeyMap.swift */,
+				1595111C72CC1ECB11A17F92 /* KurdishSorani.keylayout */,
+				22D9EB3E988E4C24F5BD5949 /* main.swift */,
+				5BF949C3B0812A68FA8491C2 /* OnboardingWindowController.swift */,
+				861C90DE06667441C5EC6DB4 /* PrivacyInfo.xcprivacy */,
+			);
+			path = KurdishSoraniKeyboard;
+			sourceTree = "<group>";
+		};
+		ACB3F7A8FB7D174A42DCFF05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F677842CCFACB9244440D50 /* KurdishSoraniKeyboard.app */,
+				DD85DE9B21607CE2323866E4 /* KurdishSoraniKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB60D4A7DE17DAACDE82EA33 = {
+			isa = PBXGroup;
+			children = (
+				4043FEC6FA141C7969D99DBC /* KurdishSoraniKeyboard */,
+				2901A871F4A8CE4F000D595D /* KurdishSoraniKeyboardTests */,
+				ACB3F7A8FB7D174A42DCFF05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5920F8E859CFFAEFB642D17C /* KurdishSoraniKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FECBFB19212231A869E0A28 /* Build configuration list for PBXNativeTarget "KurdishSoraniKeyboardTests" */;
+			buildPhases = (
+				8C94980EF09DCAF6908D4E84 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534875E912C94E9F599377D1 /* PBXTargetDependency */,
+			);
+			name = KurdishSoraniKeyboardTests;
+			packageProductDependencies = (
+			);
+			productName = KurdishSoraniKeyboardTests;
+			productReference = DD85DE9B21607CE2323866E4 /* KurdishSoraniKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC608DBA0F9474605DA46F1B /* KurdishSoraniKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BB2E07DBDE6A423E9B70AE /* Build configuration list for PBXNativeTarget "KurdishSoraniKeyboard" */;
+			buildPhases = (
+				C5571B4A709C22AF5B90E289 /* Sources */,
+				B2A2E1D2AA4AAAFC8EB9AD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KurdishSoraniKeyboard;
+			packageProductDependencies = (
+			);
+			productName = KurdishSoraniKeyboard;
+			productReference = 2F677842CCFACB9244440D50 /* KurdishSoraniKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E9F74A4D74D89F1E9921A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EC608DBA0F9474605DA46F1B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F547212FD0FA10A850E0886 /* Build configuration list for PBXProject "KurdishSoraniKeyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DB60D4A7DE17DAACDE82EA33;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACB3F7A8FB7D174A42DCFF05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC608DBA0F9474605DA46F1B /* KurdishSoraniKeyboard */,
+				5920F8E859CFFAEFB642D17C /* KurdishSoraniKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2A2E1D2AA4AAAFC8EB9AD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BA23C55BE237ADBFD6D906 /* Assets.xcassets in Resources */,
+				14BB8E6BB4B8F1AFFF08C54B /* KurdishSorani.keylayout in Resources */,
+				CF0DE3AB65BC1D151BB27258 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C94980EF09DCAF6908D4E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14742E6419E8E55843D51150 /* KurdishKeyMapTests.swift in Sources */,
+				135A964D4A3E3F3F1BD2159A /* OnboardingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5571B4A709C22AF5B90E289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C76CFE6B69B9BA5936CAF41 /* AppDelegate.swift in Sources */,
+				63C4A4795713EF6189577A27 /* InputController.swift in Sources */,
+				2DC88002E4D0200E8DDFCC9F /* KeyboardViewer.swift in Sources */,
+				B8880E23D876B07D09C7BD60 /* KurdishKeyMap.swift in Sources */,
+				18F192E5ECBB463FF4EC00AE /* OnboardingWindowController.swift in Sources */,
+				919FD143F284DE99EC783A9F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534875E912C94E9F599377D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC608DBA0F9474605DA46F1B /* KurdishSoraniKeyboard */;
+			targetProxy = F69A3A34AAC45B94399C82D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17152728CBE76DAED9F51FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KurdishSoraniKeyboard.app/Contents/MacOS/KurdishSoraniKeyboard";
+			};
+			name = Release;
+		};
+		43E8CDB465B6370D83A09A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		5BE6858BD7E65E07FB0E1070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KurdishSoraniKeyboard/KurdishSoraniKeyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KurdishSoraniKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurdish.sorani.inputmethod.KurdishSorani;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		929087F605CC3E506D6B7DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KurdishSoraniKeyboard/KurdishSoraniKeyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KurdishSoraniKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurdish.sorani.inputmethod.KurdishSorani;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4005BCC5DAE5603C0D4D499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KurdishSoraniKeyboard.app/Contents/MacOS/KurdishSoraniKeyboard";
+			};
+			name = Debug;
+		};
+		DB9CB2D7161EE88FFD26A24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BB2E07DBDE6A423E9B70AE /* Build configuration list for PBXNativeTarget "KurdishSoraniKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE6858BD7E65E07FB0E1070 /* Debug */,
+				929087F605CC3E506D6B7DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2FECBFB19212231A869E0A28 /* Build configuration list for PBXNativeTarget "KurdishSoraniKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4005BCC5DAE5603C0D4D499 /* Debug */,
+				17152728CBE76DAED9F51FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F547212FD0FA10A850E0886 /* Build configuration list for PBXProject "KurdishSoraniKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9CB2D7161EE88FFD26A24F /* Debug */,
+				43E8CDB465B6370D83A09A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E9F74A4D74D89F1E9921A76 /* Project object */;
+}

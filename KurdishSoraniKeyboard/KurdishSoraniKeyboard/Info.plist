@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Kurdish Sorani Keyboard</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 Nafeh M. (نافع). All rights reserved.</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+
+    <key>ComponentInputModeDict</key>
+    <dict>
+        <key>tsInputModeListKey</key>
+        <dict>
+            <key>com.kurdish.sorani.Sorani</key>
+            <dict>
+                <key>TISInputSourceID</key>
+                <string>com.kurdish.sorani.Sorani</string>
+                <key>TISInputSourceIsASCIICapable</key>
+                <false/>
+                <key>tsInputModeDefaultStateKey</key>
+                <true/>
+                <key>tsInputModeDisplayNameKey</key>
+                <string>Kurdish — Sorani</string>
+                <key>tsInputModeIsVisibleKey</key>
+                <true/>
+                <key>tsInputModePrimaryInScriptKey</key>
+                <false/>
+                <key>tsInputModeScriptKey</key>
+                <string>smUnicodeScript</string>
+            </dict>
+        </dict>
+        <key>tsVisibleInputModeOrderedArrayKey</key>
+        <array>
+            <string>com.kurdish.sorani.Sorani</string>
+        </array>
+    </dict>
+    <key>InputMethodConnectionName</key>
+    <string>com.kurdish.sorani.inputmethod.KurdishSorani_Connection</string>
+    <key>InputMethodServerControllerClass</key>
+    <string>KurdishSoraniInputController</string>
+
+    <key>LSUIElement</key>
+    <string>1</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true/>
+    <key>TISIntendedLanguage</key>
+    <string>ckb</string>
+</dict>
+</plist>

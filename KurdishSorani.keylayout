@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--
+    Kurdish Sorani Keyboard Layout for macOS
+    QWERTY-based layout with Kurdish Sorani (Arabic script) characters.
+
+    Install:
+      1. Copy to ~/Library/Keyboard Layouts/
+      2. Log out and back in (or reboot).
+      3. System Settings > Keyboard > Input Sources > Add > Sorani
+-->
+<keyboard group="0" id="17001" name="Sorani" maxout="2">
+
+    <layouts>
+        <layout first="0"  last="17"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="18" last="18"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="21" last="23"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="24" last="26"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="28" last="29"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="30" last="31"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="33" last="35"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="37" last="37"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="39" last="39"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="41" last="47"  modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="49" last="50"  modifiers="commonModifiers" mapSet="ANSI"/>
+    </layouts>
+
+    <!--
+        Modifier index mapping:
+          0  = no modifier
+          1  = Shift  (or Caps Lock)
+          2  = Option
+          3  = Option + Shift
+    -->
+    <modifierMap id="commonModifiers" defaultIndex="0">
+        <key keys=""/>
+        <key keys="anyShift caps?"/>
+        <key keys="anyOption"/>
+        <key keys="anyOption anyShift caps?"/>
+    </modifierMap>
+
+    <keyMapSet id="ANSI">
+
+        <!-- ============================================================ -->
+        <!-- Index 0 — Base (no modifier)                                 -->
+        <!-- ============================================================ -->
+        <keyMap index="0">
+
+            <!-- Numbers row -->
+            <key code="18" output="&#x0661;"/>  <!-- 1 -> ١ -->
+            <key code="19" output="&#x0662;"/>  <!-- 2 -> ٢ -->
+            <key code="20" output="&#x0663;"/>  <!-- 3 -> ٣ -->
+            <key code="21" output="&#x0664;"/>  <!-- 4 -> ٤ -->
+            <key code="23" output="&#x0665;"/>  <!-- 5 -> ٥ -->
+            <key code="22" output="&#x0666;"/>  <!-- 6 -> ٦ -->
+            <key code="26" output="&#x0667;"/>  <!-- 7 -> ٧ -->
+            <key code="28" output="&#x0668;"/>  <!-- 8 -> ٨ -->
+            <key code="25" output="&#x0669;"/>  <!-- 9 -> ٩ -->
+            <key code="29" output="&#x0660;"/>  <!-- 0 -> ٠ -->
+            <key code="27" output="-"/>
+            <key code="24" output="="/>
+
+            <!-- Top row (QWERTY) -->
+            <key code="12" output="&#x0642;"/>  <!-- q -> ق -->
+            <key code="13" output="&#x0648;"/>  <!-- w -> و -->
+            <key code="14" output="&#x06D5;"/>  <!-- e -> ە  U+06D5 -->
+            <key code="15" output="&#x0631;"/>  <!-- r -> ر -->
+            <key code="17" output="&#x062A;"/>  <!-- t -> ت -->
+            <key code="16" output="&#x06CC;"/>  <!-- y -> ی -->
+            <key code="32" output="&#x0626;"/>  <!-- u -> ئ -->
+            <key code="34" output="&#x062D;"/>  <!-- i -> ح -->
+            <key code="31" output="&#x06C6;"/>  <!-- o -> ۆ  U+06C6 -->
+            <key code="35" output="&#x067E;"/>  <!-- p -> پ  U+067E -->
+            <key code="33" output="&#x0634;"/>  <!-- [ -> ش -->
+            <key code="30" output="&#x0637;"/>  <!-- ] -> ط -->
+            <key code="42" output="\"/>         <!-- \ -> \ -->
+
+            <!-- Home row (ASDF) -->
+            <key code="0"  output="&#x0627;"/>  <!-- a -> ا -->
+            <key code="1"  output="&#x0633;"/>  <!-- s -> س -->
+            <key code="2"  output="&#x062F;"/>  <!-- d -> د -->
+            <key code="3"  output="&#x0641;"/>  <!-- f -> ف -->
+            <key code="5"  output="&#x06AF;"/>  <!-- g -> گ  U+06AF -->
+            <key code="4"  output="&#x0647;"/>  <!-- h -> ه -->
+            <key code="38" output="&#x0698;"/>  <!-- j -> ژ  U+0698 -->
+            <key code="40" output="&#x06A9;"/>  <!-- k -> ک  U+06A9 -->
+            <key code="37" output="&#x0644;"/>  <!-- l -> ل -->
+            <key code="41" output="&#x061B;"/>  <!-- ; -> ؛ Arabic semicolon -->
+            <key code="39" output="&#x0639;"/>  <!-- ' -> ع -->
+
+            <!-- Bottom row (ZXCV) -->
+            <key code="6"  output="&#x0632;"/>  <!-- z -> ز -->
+            <key code="7"  output="&#x062E;"/>  <!-- x -> خ -->
+            <key code="8"  output="&#x062C;"/>  <!-- c -> ج -->
+            <key code="9"  output="&#x06A4;"/>  <!-- v -> ڤ  U+06A4 -->
+            <key code="11" output="&#x0628;"/>  <!-- b -> ب -->
+            <key code="45" output="&#x0646;"/>  <!-- n -> ن -->
+            <key code="46" output="&#x0645;"/>  <!-- m -> م -->
+            <key code="43" output="&#x060C;"/>  <!-- , -> ، Arabic comma -->
+            <key code="47" output="."/>
+            <key code="44" output="/"/>
+
+            <!-- Special -->
+            <key code="49" output=" "/>
+            <key code="50" output="&#x0640;"/>  <!-- ` -> ـ tatweel -->
+
+        </keyMap>
+
+        <!-- ============================================================ -->
+        <!-- Index 1 — Shift (and Caps Lock)                              -->
+        <!-- ============================================================ -->
+        <keyMap index="1">
+
+            <!-- Numbers row shifted -->
+            <key code="18" output="!"/>
+            <key code="19" output="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output="$"/>
+            <key code="23" output="%"/>
+            <key code="22" output="&#x066A;"/>  <!-- ^ -> ٪ Arabic percent sign -->
+            <key code="26" output="&#x066D;"/>  <!-- &amp; -> ٭ Arabic five-pointed star -->
+            <key code="28" output="*"/>
+            <key code="25" output="("/>
+            <key code="29" output=")"/>
+            <key code="27" output="_"/>
+            <key code="24" output="+"/>
+
+            <!-- Top row shifted -->
+            <key code="12" output="`"/>                        <!-- Q -> ` -->
+            <key code="13" output="&#x0648;&#x0648;"/>        <!-- W -> وو -->
+            <key code="14" output="&#x064A;"/>                 <!-- E -> ي Arabic ya U+064A -->
+            <key code="15" output="&#x0695;"/>                 <!-- R -> ڕ Kurdish rr U+0695 -->
+            <key code="17" output="&#x0637;"/>                 <!-- T -> ط -->
+            <key code="16" output="&#x06CE;"/>                 <!-- Y -> ێ Kurdish é U+06CE -->
+            <key code="32" output="&#x0621;"/>                 <!-- U -> ء hamza -->
+            <key code="34" output="&#x0639;"/>                 <!-- I -> ع -->
+            <key code="31" output="&#x0624;"/>                 <!-- O -> ؤ -->
+            <key code="35" output="&#x062B;"/>                 <!-- P -> ث -->
+            <key code="33" output="{"/>
+            <key code="30" output="}"/>
+            <key code="42" output="|"/>                        <!-- \ -> | -->
+
+            <!-- Home row shifted -->
+            <key code="0"  output="&#x0622;"/>  <!-- A -> آ alef madda -->
+            <key code="1"  output="&#x0634;"/>  <!-- S -> ش -->
+            <key code="2"  output="&#x0630;"/>  <!-- D -> ذ -->
+            <key code="3"  output="&#x0625;"/>  <!-- F -> إ alef+hamza below -->
+            <key code="5"  output="&#x063A;"/>  <!-- G -> غ -->
+            <key code="4"  output="&#x200C;"/>  <!-- H -> ZWNJ zero-width non-joiner -->
+            <key code="38" output="&#x0623;"/>  <!-- J -> أ alef+hamza above -->
+            <key code="40" output="&#x0643;"/>  <!-- K -> ك Arabic kaf -->
+            <key code="37" output="&#x06B5;"/>  <!-- L -> ڵ Kurdish ll U+06B5 -->
+            <key code="41" output=":"/>
+            <key code="39" output="&#x063A;"/>  <!-- ' -> غ -->
+
+            <!-- Bottom row shifted -->
+            <key code="6"  output="&#x0636;"/>  <!-- Z -> ض -->
+            <key code="7"  output="&#x0635;"/>  <!-- X -> ص -->
+            <key code="8"  output="&#x0686;"/>  <!-- C -> چ Kurdish che U+0686 -->
+            <key code="9"  output="&#x0638;"/>  <!-- V -> ظ -->
+            <key code="11" output="&#x0649;"/>  <!-- B -> ى alef maqsura -->
+            <key code="45" output="&#x0629;"/>  <!-- N -> ة ta marbuta -->
+            <key code="46" output="&#x0640;"/>  <!-- M -> ـ tatweel -->
+            <key code="43" output="&lt;"/>
+            <key code="47" output="&gt;"/>
+            <key code="44" output="&#x061F;"/>  <!-- / -> ؟ Arabic question mark -->
+
+            <!-- Special -->
+            <key code="49" output=" "/>
+            <key code="50" output="~"/>
+
+        </keyMap>
+
+        <!-- ============================================================ -->
+        <!-- Index 2 — Option (Alt)                                       -->
+        <!--  Invisible formatting characters and typographic punctuation  -->
+        <!-- ============================================================ -->
+        <keyMap index="2">
+            <key code="14" output="&#x200C;"/>  <!-- opt+e -> ZWNJ -->
+            <key code="38" output="&#x200D;"/>  <!-- opt+j -> ZWJ -->
+            <key code="4"  output="&#x200F;"/>  <!-- opt+h -> RLM -->
+            <key code="5"  output="&#x200E;"/>  <!-- opt+g -> LRM -->
+            <key code="49" output="&#x00A0;"/>  <!-- opt+space -> NBSP -->
+            <key code="27" output="&#x2013;"/>  <!-- opt+- -> en dash -->
+            <key code="24" output="&#x2260;"/>  <!-- opt+= -> ≠ -->
+            <key code="47" output="&#x2026;"/>  <!-- opt+. -> … -->
+            <key code="43" output="&#x060C;"/>  <!-- opt+, -> ، -->
+            <key code="44" output="&#x061F;"/>  <!-- opt+/ -> ؟ -->
+        </keyMap>
+
+        <!-- ============================================================ -->
+        <!-- Index 3 — Option + Shift                                     -->
+        <!-- ============================================================ -->
+        <keyMap index="3">
+            <key code="14" output="&#x200D;"/>  <!-- opt+shift+e -> ZWJ -->
+            <key code="49" output="&#x00A0;"/>  <!-- opt+shift+space -> NBSP -->
+            <key code="27" output="&#x2014;"/>  <!-- opt+shift+- -> em dash -->
+            <key code="43" output="&#x2039;"/>  <!-- opt+shift+, -> ‹ -->
+            <key code="47" output="&#x203A;"/>  <!-- opt+shift+. -> › -->
+        </keyMap>
+
+    </keyMapSet>
+
+</keyboard>
